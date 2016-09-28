@@ -1,0 +1,12 @@
+﻿{
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  },
+  "References": [
+    { "Path": "../../wwwroot/lib/angular/angular.js" },
+    { "Path": "../../wwwroot/lib/angular-mocks/angular-mocks.js" },
+    { "Path": "../../wwwroot/lib/angular-ui-router/release/angular-ui-router.js" }
+  ]
+}

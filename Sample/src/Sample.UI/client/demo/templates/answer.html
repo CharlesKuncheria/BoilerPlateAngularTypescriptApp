@@ -1,0 +1,8 @@
+﻿<div class="panel panel-default">
+    <div class="panel-body" ng-class="{ 'bg-success': ans.correct }">
+        {{ ans.answer }}
+        <div class="pull-right">
+            <small><a href="#" ng-click="$parent.vm.markAsCorrect(ans.id)">Mark as correct</a></small>
+        </div>
+    </div>
+</div>

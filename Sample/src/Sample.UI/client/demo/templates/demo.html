@@ -1,0 +1,25 @@
+﻿<div id="demoPage">
+
+    <section id="body"  class="container">
+
+        <section id="main" class="col-md-9">
+            <div class="jumbotron text-center">
+                <h1>Sample UI Demo</h1>
+                <section>
+                    <div ng-repeat="ans in vm.answers track by $index">
+                        <answer />
+                    </div>
+                    <hr />
+                    <h4>Add an answer</h4>
+                    <div>
+                        <textarea class="col-md-6 col-xs-8" ng-model="vm.newAnswerText"></textarea> &nbsp;
+                        <input type="button" class="btn btn-primary" value="Add" ng-click="vm.addAnswer()" />
+                    </div>
+
+                </section>
+            </div>
+        </section>
+
+    </section>
+
+</div>

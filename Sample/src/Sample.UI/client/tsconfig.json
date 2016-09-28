@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "preserve"
+  },
+  "files": [
+    "./app.ts",
+    "./demo/demo.ts",
+    "./demo/demoController.ts",
+    "./demo/routes/homeRoute.ts",
+    "./demo/demoService.ts",
+    "./demo/answer.ts",
+    "./demo/ToGo.ts",
+    "./demo/ToGoService.ts",
+    "./demo/adalConfig.ts",
+    "./demo/answerDirective.ts",
+    "./spec/demo/demoController.spec.ts"
+  ],
+  "compileOnSave": true
+}
