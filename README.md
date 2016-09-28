@@ -1,1 +1,1 @@
-# BolilerPlateAngularTypescriptApp
+# BoilerPlateAngularTypescriptApp
