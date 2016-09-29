@@ -1,6 +1,6 @@
 # BoilerPlateAngularTypescriptApp
 
-This project uses the following techonology stack.
+This project uses the following technology stack.
 
 1. Angular 1.x
 2. Typescript
